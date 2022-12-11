@@ -2,7 +2,7 @@
 @php
     $routesList = is_array($route) ? $route : null;
     $model = Form::getModel();
-    $title = $model ? __("Edit :name",['name'=>$name]) : __('Create :name',['name'=>$name]);
+    $title = $model ? __("Edit").' '.__(":name",['name'=>$name]) : __('Create :name',['name'=>$name]);
 @endphp
 <x-ui::layout :title="$title" :breadcrumbs="$breadcrumbs">
     {{ $prepend ?? '' }}

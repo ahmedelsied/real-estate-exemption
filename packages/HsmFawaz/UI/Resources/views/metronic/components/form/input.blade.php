@@ -2,7 +2,7 @@
 @php
     $invalidClass =$errors->has(dotted_string($name)) ? 'is-invalid' : '';
     $splitAttributes = explode(' ',$attributes);
-    $defaultPlaceHolder = __('Enter :name',['name'=>$label]);
+    $defaultPlaceHolder = __('Enter') . ' ' . __(':name',['name'=>$label]);
     $properties = [
     'class'=>"{$invalidClass} form-control {$class}" ,
     'placeholder'=> $defaultPlaceHolder,

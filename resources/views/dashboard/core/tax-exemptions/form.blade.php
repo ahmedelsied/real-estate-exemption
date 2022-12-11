@@ -51,7 +51,7 @@
                 realEstateSelect.on('select2:open', function (e) {
                     if(firstTime){
                         firstTime = 0;
-                        $('.real-estate-select input.select2-search__field').attr('placeholder','{{ __('Type real estate name or id') }}');
+                        $('.real-estate-select input.select2-search__field').attr('placeholder','{{ __('Type file number or id') }}');
                     }
                     else{
                         return false;

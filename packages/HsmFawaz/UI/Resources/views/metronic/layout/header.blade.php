@@ -105,7 +105,7 @@
                         <div class="separator my-2"></div>
                         <!--end::Menu separator-->
                         <!--begin::Menu item-->
-                        <div class="menu-item px-5" data-kt-menu-trigger="hover"
+                        {{-- <div class="menu-item px-5" data-kt-menu-trigger="hover"
                              data-kt-menu-placement="left-start">
                             <a href="#" class="menu-link px-5">
                                 <span class="menu-title position-relative"> {{ __('Language') }}
@@ -146,7 +146,7 @@
 
                             </div>
                             <!--end::Menu sub-->
-                        </div>
+                        </div> --}}
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-5 my-1">
